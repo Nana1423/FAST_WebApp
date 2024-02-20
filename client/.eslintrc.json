@@ -6,7 +6,8 @@
     "extends": [
         "standard-with-typescript",
         "plugin:react/recommended",
-        "prettier"
+        "prettier",
+        "plugin:tailwindcss/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
