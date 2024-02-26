@@ -1,9 +1,14 @@
 const express = require("express");
-const connectDB = require("./connection.js");
 const app = express();
+const connectDB = require("./connection.js")
+const routes = require("./routes/routes.js")
+app.use(express.json())
 
 // Loading env variables
 require('dotenv').config()
+
+// Loading routes
+app.use("/", routes)
 
 // Running Server
 const port = process.env.PORT || 3000;
