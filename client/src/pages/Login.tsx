@@ -4,7 +4,7 @@ import Phone from '../assets/Phone.svg'
 export default function Login() {
     return (
         <>
-            <main className='flex h-screen items-center justify-between bg-FAST-DarkBlue px-2 py-6 sm:px-8 sm:py-10'>
+            <main className='flex h-svh items-center justify-between bg-FAST-DarkBlue px-2 py-6 sm:px-8 sm:py-10'>
                 {/* Phone Container */}
                 <div className='hidden md:flex md:h-4/5 md:w-1/2 md:items-center md:justify-center'>
                     <img className='h-fit max-h-[600px]' src={Phone} alt='Phone' />
