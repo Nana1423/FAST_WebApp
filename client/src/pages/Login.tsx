@@ -15,7 +15,7 @@ export default function Login() {
                         className='flex size-full flex-col items-center justify-around rounded-3xl bg-FAST-WhiteCream p-6 text-left'
                         action=''
                     >
-                        <h1 className='text-4xl font-bold sm:text-5xl'>Bienvenido</h1>
+                        <h1 className='text-4xl font-bold sm:text-5xl'>HELLO LUSWI</h1>
                         <div className='flex w-full flex-col'>
                             <h2 className='text-left uppercase'>EMAIL</h2>
                             <input
